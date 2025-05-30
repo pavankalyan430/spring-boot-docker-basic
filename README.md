@@ -120,3 +120,5 @@ docker login -u <your_username>
 - Make sure your jar file name matches what you use in the Dockerfile COPY command.
 - Use `docker ps` to check running containers.
 - Use `docker logs <container_id>` to see container logs if needed.
+- Docker Image = Java Class and It's a blueprint. Contains all dependencies, your app code, configs, etc.
+- Docker Container = Java Object - A running instance of an image. You can have multiple containers from the same image:
